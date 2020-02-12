@@ -54,11 +54,7 @@ public class Movie {
         return String.format("https://image.tmdb.org/t/p/w342/%s", backdropPath);
     }
 
-    public double getRating() {
-        return rating;
-    }
+    public double getRating() { return rating; }
 
-    public int getMovieId() {
-        return movieId;
-    }
+    public int getMovieId() { return movieId; }
 }
